@@ -2,6 +2,11 @@
 #include <stdbool.h>
 #include <memory.h>
 
+// We call this algorithm as sliding window
+// Tip: modulo operator is fucking slow
+// In ps, we're lack of time, but we've got sufficient storage
+// So we can adopt a strategy of converting storage to time
+
 int foods[10000001];
 int foods_table[201];
 
